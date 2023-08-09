@@ -1,0 +1,21 @@
+.row{
+    color: white;
+}
+
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  
+}
+.poster{
+    max-width: 250px;
+    padding: 5px;
+    border-radius: 16px;
+}
+
+
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
